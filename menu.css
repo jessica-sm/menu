@@ -1,4 +1,4 @@
-
+/**Base Styles**/
 * {
 	margin:0;
 	padding:0;
@@ -34,7 +34,7 @@ p {
 	background: #ffdf80;
 	border: 1px solid black;
 	margin: .5em;
-	/*width: 32%;*/
+	width: 32%;
 	float: left;
 }
 
@@ -66,21 +66,21 @@ p {
 
 @media (min-width: 768px) and (max-width: 991px) {
 	#box1 {
-		width:50%;
+		width: 49%;
 	}
 
 	#box2 {
-		width: 50%;
+		width: 49%;
 	}
 
 	#box3 {
-		width:100%;
+		width: 98%;
 	}
 }
 
 @media (max-width: 767px) {
 	.section {
-		width: 100%;
+		width: 99%;
 	}
 }
 
